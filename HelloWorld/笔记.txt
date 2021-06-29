@@ -1,0 +1,1 @@
+1、每个Springboot项目都会有一个parent父项目，而该项目还依赖于dependencies父项目，而该项目约束者版本号
