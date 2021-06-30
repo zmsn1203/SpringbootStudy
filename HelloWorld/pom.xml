@@ -7,12 +7,17 @@
     <groupId>com.zmsn</groupId>
     <artifactId>HelloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
    <parent>
        <groupId>org.springframework.boot</groupId>
        <artifactId>spring-boot-starter-parent</artifactId>
        <version>2.3.4.RELEASE</version>
    </parent>
+
+    <properties>
+        <mysql.version>8.0.19</mysql.version>
+    </properties>
 
     <dependencies>
 
@@ -28,6 +33,17 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-configuration-processor -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
+
 
     </dependencies>
 

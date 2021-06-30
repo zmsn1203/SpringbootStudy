@@ -87,5 +87,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.19" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.3.4.RELEASE" level="project" />
   </component>
 </module>
