@@ -6,16 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HelloWorld" />
+        <module name="2-Redis-spring-boot-test" />
+        <module name="2-Redis-spring-boot-AutoConfiguration" />
+        <module name="2-Redis-spring-boot-stater" />
+        <module name="TestAotu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Hello world" target="1.8" />
+      <module name="2-Redis-spring-boot-AutoConfiguration" target="1.8" />
+      <module name="2-Redis-spring-boot-stater" target="1.8" />
+      <module name="2-Redis-spring-boot-test" target="1.8" />
       <module name="HelloWorld" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="2-Redis-spring-boot-AutoConfiguration" options="-parameters" />
+      <module name="2-Redis-spring-boot-stater" options="-parameters" />
+      <module name="2-Redis-spring-boot-test" options="-parameters" />
       <module name="HelloWorld" options="-parameters" />
     </option>
   </component>

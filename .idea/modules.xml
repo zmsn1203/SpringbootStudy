@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-Redis-spring-boot-AutoConfiguration/2-Redis-spring-boot-AutoConfiguration.iml" filepath="$PROJECT_DIR$/2-Redis-spring-boot-AutoConfiguration/2-Redis-spring-boot-AutoConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-Redis-spring-boot-stater/2-Redis-spring-boot-stater.iml" filepath="$PROJECT_DIR$/2-Redis-spring-boot-stater/2-Redis-spring-boot-stater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-Redis-spring-boot-test/2-Redis-spring-boot-test.iml" filepath="$PROJECT_DIR$/2-Redis-spring-boot-test/2-Redis-spring-boot-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringbootStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringbootStudy.iml" />
     </modules>
   </component>

@@ -1,6 +1,0 @@
-1、每个Springboot项目都会有一个parent父项目，而该项目还依赖于dependencies父项目，而该项目约束者版本号
-2、springboot-starter **是某块启动器，他包含有该某块所有的工具jar包，开发某些功能只需要导入个启动器就可以了
-3、properties绑定
-   1、在需要资源的类上添加两个注解，component和configurationProperties(prefix="**")即可
-   2、在configuration类上添加@EnableConfigurationProperties(类名.class),在资源类上添加configurationProperties(prefix=**)
-4、debug=true  开启自动配置报告
